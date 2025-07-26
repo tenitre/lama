@@ -285,11 +285,11 @@ Combiner → Output Writer → Logs & Results
   - [x] 2.3 Exclude folders like .git, __pycache__, .env, node_modules
   - [x] 2.4 Return structured list of file paths and metadata
 
-- [ ] 3.0 Implement Token Calculation and Chunking
-  - [ ] 3.1 Integrate token counting using a compatible tokenizer
-  - [ ] 3.2 Implement chunk splitting with metadata (filename, line range, chunk number)
-  - [ ] 3.3 Ensure token limits are respected and logged
-  - [ ] 3.4 Add test cases for large and edge-case files
+- [x] 3.0 Implement Token Calculation and Chunking
+  - [x] 3.1 Integrate token counting using a compatible tokenizer
+  - [x] 3.2 Implement chunk splitting with metadata (filename, line range, chunk number)
+  - [x] 3.3 Ensure token limits are respected and logged
+  - [x] 3.4 Add test cases for large and edge-case files
 
 - [ ] 4.0 Implement Ollama Communication and Task Flow
   - [ ] 4.1 Implement API client for Ollama local server
