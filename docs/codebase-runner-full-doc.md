@@ -279,11 +279,11 @@ Combiner → Output Writer → Logs & Results
   - [x] 1.4 Load JSON config and support CLI override for model name
   - [x] 1.5 Add initial test folder with placeholder tests
 
-- [ ] 2.0 Implement File Scanning and Filtering
-  - [ ] 2.1 Implement recursive directory scanning
-  - [ ] 2.2 Filter files by allowed extensions (.py, .cs, .md, .ipynb, etc.)
-  - [ ] 2.3 Exclude folders like .git, __pycache__, .env, node_modules
-  - [ ] 2.4 Return structured list of file paths and metadata
+- [x] 2.0 Implement File Scanning and Filtering
+  - [x] 2.1 Implement recursive directory scanning
+  - [x] 2.2 Filter files by allowed extensions (.py, .cs, .md, .ipynb, etc.)
+  - [x] 2.3 Exclude folders like .git, __pycache__, .env, node_modules
+  - [x] 2.4 Return structured list of file paths and metadata
 
 - [ ] 3.0 Implement Token Calculation and Chunking
   - [ ] 3.1 Integrate token counting using a compatible tokenizer
