@@ -1,0 +1,49 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Unit test and coverage files
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# MyPy and Pylint
+.mypy_cache/
+.dmypy.json
+.mypy_cache/
+pylint-report.txt
+
+# VS Code & PyCharm
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+.venv/
+
+# Poetry specific
+poetry.lock
+
+# Output folders
+outputs/
+dist/
+build/
+
+# Notebook execution logs
+*.nbconvert.ipynb
+
+# Docs
