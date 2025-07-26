@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "codebase_runner"
+version = "0.1.0"
+description = "A CLI tool for processing codebases with a local LLM via Ollama."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+# Requests is used for HTTP communication with the local LLM API
+requests = "^2.31.0"
+# tiktoken provides token counting for supported models
+tiktoken = "^0.4.0"
+# click is optional for CLI but we use argparse in this version
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
