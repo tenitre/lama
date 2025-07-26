@@ -291,12 +291,12 @@ Combiner → Output Writer → Logs & Results
   - [x] 3.3 Ensure token limits are respected and logged
   - [x] 3.4 Add test cases for large and edge-case files
 
-- [ ] 4.0 Implement Ollama Communication and Task Flow
-  - [ ] 4.1 Implement API client for Ollama local server
-  - [ ] 4.2 Send each chunk with user-defined prompt
-  - [ ] 4.3 Gather responses per chunk
-  - [ ] 4.4 Send follow-up prompt to combine per-file responses
-  - [ ] 4.5 Allow prompt reuse across files
+- [x] 4.0 Implement Ollama Communication and Task Flow
+  - [x] 4.1 Implement API client for Ollama local server
+  - [x] 4.2 Send each chunk with user-defined prompt
+  - [x] 4.3 Gather responses per chunk
+  - [x] 4.4 Send follow-up prompt to combine per-file responses
+  - [x] 4.5 Allow prompt reuse across files
 
 - [ ] 5.0 Implement Output Aggregation and File Writing
   - [ ] 5.1 Create markdown output writer for documentation
