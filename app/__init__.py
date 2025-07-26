@@ -12,6 +12,7 @@ from . import (
     chunker,
     ollama_client,
     task_dispatcher,
+    output_writer,
 )
 
 __all__ = [
@@ -21,5 +22,6 @@ __all__ = [
     "chunker",
     "ollama_client",
     "task_dispatcher",
+    "output_writer",
 ]
 

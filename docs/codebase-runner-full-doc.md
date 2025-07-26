@@ -298,12 +298,12 @@ Combiner → Output Writer → Logs & Results
   - [x] 4.4 Send follow-up prompt to combine per-file responses
   - [x] 4.5 Allow prompt reuse across files
 
-- [ ] 5.0 Implement Output Aggregation and File Writing
-  - [ ] 5.1 Create markdown output writer for documentation
-  - [ ] 5.2 Create .cs writer for unit test generation
-  - [ ] 5.3 Organize outputs by task (docs/, tests/, todos/)
-  - [ ] 5.4 Add timestamped logs or headers to outputs
-  - [ ] 5.5 Validate and log file save success
+- [x] 5.0 Implement Output Aggregation and File Writing
+  - [x] 5.1 Create markdown output writer for documentation
+  - [x] 5.2 Create .cs writer for unit test generation
+  - [x] 5.3 Organize outputs by task (docs/, tests/, todos/)
+  - [x] 5.4 Add timestamped logs or headers to outputs
+  - [x] 5.5 Validate and log file save success
 
 - [ ] 6.0 Add CLI Interface and Logging
   - [ ] 6.1 Build CLI using argparse or click
