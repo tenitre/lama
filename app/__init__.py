@@ -1,15 +1,25 @@
 """Core application package for the Codebase Task Runner.
 
-This package will contain modules responsible for scanning files,
+This package exposes utilities for scanning files, counting tokens,
 chunking content, communicating with a local LLM via Ollama, and
-writing results. For now only configuration helpers are defined here.
+writing results.
 """
 
-from . import config_loader, folder_scanner, token_calculator, chunker
+from . import (
+    config_loader,
+    folder_scanner,
+    token_calculator,
+    chunker,
+    ollama_client,
+    task_dispatcher,
+)
 
 __all__ = [
     "config_loader",
     "folder_scanner",
     "token_calculator",
     "chunker",
+    "ollama_client",
+    "task_dispatcher",
 ]
+
