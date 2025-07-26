@@ -305,11 +305,11 @@ Combiner → Output Writer → Logs & Results
   - [x] 5.4 Add timestamped logs or headers to outputs
   - [x] 5.5 Validate and log file save success
 
-- [ ] 6.0 Add CLI Interface and Logging
-  - [ ] 6.1 Build CLI using argparse or click
-  - [ ] 6.2 Accept --path, --ask, --model as arguments
-  - [ ] 6.3 Add centralized logging to terminal using Python logging
-  - [ ] 6.4 Ensure key steps (scan, chunk, send, write) are logged clearly
+ - [x] 6.0 Add CLI Interface and Logging
+  - [x] 6.1 Build CLI using argparse or click
+  - [x] 6.2 Accept --path, --ask, --model as arguments
+  - [x] 6.3 Add centralized logging to terminal using Python logging
+  - [x] 6.4 Ensure key steps (scan, chunk, send, write) are logged clearly
 
 - [ ] 7.0 (V2) Implement Codebase Indexing and Retrieval
   - [ ] 7.1 Integrate Nomic Embed to convert file chunks to embeddings
