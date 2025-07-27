@@ -24,7 +24,7 @@ DEFAULT_EXTENSIONS = {
     ".cs",
     ".md",
     ".ipynb",
-    ".json",
+    #".json",
     ".yaml",
     ".yml",
     ".toml",

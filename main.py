@@ -95,7 +95,7 @@ def main() -> None:
     logging.info("Found %d files", len(files))
 
     client = OllamaClient(model.get("url"))
-    dispatcher = TaskDispatcher(client, model_name, model.get("token_limit", 32000))
+    dispatcher = TaskDispatcher(client, model_name, model.get("token_limit", 12000))
     writer = OutputWriter(Path("outputs"))
 
     for file_info in files:
