@@ -1,5 +1,5 @@
 {
-  "default_model": "qwen2.5-coder:7b",
+  "default_model": "qwen2.5-coder:14b",
   "models": {
     "qwen2.5-coder:7b": {
       "url": "http://localhost:11434",
@@ -9,6 +9,16 @@
     "llama2-13b": {
       "url": "http://localhost:11434",
       "token_limit": 16000,
+      "description": "Example entry for a LLaMA 13B model"
+    },     
+    "qwen2.5-coder:14b": {
+      "url": "http://localhost:11434",
+      "token_limit": 8000,
+      "description": "Default Qwen 2.5 coder model for general code tasks"
+    },
+    "llama3.1:8b": {
+      "url": "http://localhost:11434",
+      "token_limit": 8000,
       "description": "Example entry for a LLaMA 13B model"
     }
   }
