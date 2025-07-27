@@ -66,7 +66,7 @@ def main() -> None:
     # Initialise logging. The logging configuration here is minimal;
     # downstream modules should configure their own loggers as needed.
     logging.basicConfig(
-        level=logging.INFO,
+        level=logging.DEBUG,
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
 

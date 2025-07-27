@@ -39,7 +39,7 @@ Thumbs.db
 poetry.lock
 
 # Output folders
-outputs/
+#outputs/
 dist/
 build/
 
